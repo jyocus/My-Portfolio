@@ -34,30 +34,30 @@
 
 <main class="container">
     <section class="row">
-        <div class="col-md-7">
-            <form>
+        <div class="col-md-8">
+            <form class="contents form-contents">
                 <h1>Contact</h1>
                 <hr />
-                <div>
+                <div class="form-line">
                     <label for="name">Name</label>
                 <div class="col-sm-10">
-                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input class="form-style" type="text" id="name" name="name" placeholder="Name">
                 </div>
             </div>
-            <div>
+            <div class="form-line">
                     <label for="email">Email</label>
-                <div class="col-sm-10"></div>
-                    <input type="email" id="email" name="E-Mail" placeholder="Email">
+                <div class="col-sm-10">
+                    <input class="form-style" type="email" id="email" name="E-Mail" placeholder="Email">
                 </div>
             </div>
+            <div class="form-line">
                     <label for="Message">Message</label>
                     <div class="col-sm-10"></div>
+                        <textarea id="text" rows="3" class="form-style" name="Message" placeholder="Message"></textarea>
                 </div>
+            </div>
                 <div>
-                    <input type="text" id="text" name="Message" placeholder="Message">
-                </div>
-                <div>
-                    <button>Submit</button>
+                    <button class="submit">Submit</button>
                 </div>
             </form>
         </div>

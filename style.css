@@ -54,6 +54,31 @@ p {
 
 }
 
+.form-contents {
+    display: block;
+    margin: 0;
+}
+
+.form-style {
+    display: block;
+    color: darkslategray;
+    border: 1px solid darkslategray;
+    padding: 25px;
+
+}
+
+.form-line {
+    display: block;
+    color: darkslategray;
+    border: 3px solid darkslategray;
+    padding: 25px;
+}
+
+.submit {
+    padding: 20px 30px;
+    font-size: medium;
+    background-color: darkslategray;
+}
 
 .footer {
     position: fixed;

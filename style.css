@@ -6,6 +6,32 @@ body {
 
 }
 
+.about-me-container {
+    margin: 40px 0px 40px 0px;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: medium;
+    
+}
+
+.about-me-title {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-weight: bold;
+}
+
+#about-me-image {
+    width: 200px;
+    margin: 20px;
+    float: left;
+
+}
+
+
 .footer {
     position: fixed;
     left: 0;

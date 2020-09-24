@@ -3,24 +3,40 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.my-nav-align {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: darkslategray
 
 }
 
 .about-me-container {
-    margin: 40px 0px 40px 0px;
+    margin: 25px 0px 25px 0px;
     background-color: white;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding: 25px;
     font-size: medium;
+    t
     
+}
+
+p {
+    display: block;
 }
 
 .about-me-title {
     text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    ;
     font-weight: bold;
 }
 

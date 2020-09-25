@@ -56,7 +56,6 @@ p {
 
 .form-contents {
     display: block;
-    margin: 0;
 }
 
 .form-style {
@@ -64,13 +63,12 @@ p {
     color: darkslategray;
     border: 1px solid darkslategray;
     padding: 25px;
-
+    width: 100%;
 }
 
 .form-line {
     display: block;
     color: darkslategray;
-    border: 3px solid darkslategray;
     padding: 25px;
 }
 
